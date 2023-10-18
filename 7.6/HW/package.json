@@ -1,0 +1,27 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:open:chrome": "cypress open --e2e --browser chrome",
+    "cy:run:electron": "cypress run --browser electron"
+  },
+  "viewportMobile": {
+    "viewportHeight": 1280,
+    "viewportWidth": 720
+  },
+  "viewportLaptop": {
+    "viewportHeight": 1200,
+    "viewportWidth": 1920
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.1"
+  }
+}
